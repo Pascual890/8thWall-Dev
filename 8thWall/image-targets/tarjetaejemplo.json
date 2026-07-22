@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 960,
+    "height": 1280,
+    "isRotated": false,
+    "originalWidth": 960,
+    "originalHeight": 1280
+  },
+  "imagePath": "image-targets/tarjetaejemplo_luminance.jpg",
+  "metadata": null,
+  "name": "tarjetaejemplo",
+  "resources": {
+    "originalImage": "tarjetaejemplo_original.jpg",
+    "croppedImage": "tarjetaejemplo_cropped.jpg",
+    "thumbnailImage": "tarjetaejemplo_thumbnail.jpg",
+    "luminanceImage": "tarjetaejemplo_luminance.jpg"
+  },
+  "created": 1784730110327,
+  "updated": 1784730110327
+}

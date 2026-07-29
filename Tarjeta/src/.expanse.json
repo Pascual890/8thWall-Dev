@@ -32,9 +32,14 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR",
+          "direction": "front",
+          "world": {
+            "disableWorldTracking": true
+          }
         }
       },
       "components": {},
@@ -93,20 +98,20 @@
     "371ca486-f049-463c-abe8-be09103f7ac0": {
       "id": "371ca486-f049-463c-abe8-be09103f7ac0",
       "position": [
-        0,
-        0,
+        -3.252606517456515e-19,
+        0.9935775062241348,
         0
       ],
       "rotation": [
-        -0.7071067811865475,
+        -0.008618710023979919,
         0,
         0,
-        0.7071067811865476
+        0.9999628582290058
       ],
       "scale": [
         1,
         1,
-        1
+        1.0000000000000002
       ],
       "geometry": null,
       "material": null,
@@ -116,40 +121,94 @@
       "imageTarget": {
         "name": "2"
       },
-      "order": 2.7719622010522893
+      "order": 2.7719622010522893,
+      "persistent": true
     },
-    "47ea1aa2-dfef-4340-8c91-445a11318288": {
-      "id": "47ea1aa2-dfef-4340-8c91-445a11318288",
+    "59b52ace-3f5e-4855-b3e9-4f3538985e46": {
+      "id": "59b52ace-3f5e-4855-b3e9-4f3538985e46",
       "position": [
-        -0.04767749571259139,
-        0.4612577433192646,
-        0.02893656213419505
+        0,
+        0.3952422235134032,
+        -0.12246767076775242
       ],
       "rotation": [
-        0.7071067811865475,
+        0.008618710023979919,
         0,
         0,
-        0.7071067811865476
+        0.9999628582290058
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.6,
+        0.6000000000000001,
+        0.5999999999999999
       ],
       "geometry": null,
       "material": null,
       "parentId": "371ca486-f049-463c-abe8-be09103f7ac0",
-      "components": {},
+      "components": {
+        "bcb4de97-5b7b-4791-8c2f-f353487ba6c5": {
+          "id": "bcb4de97-5b7b-4791-8c2f-f353487ba6c5",
+          "name": "look-at-animation",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
           "asset": "assets/Untitled.glb"
         },
-        "animationClip": "",
+        "animationClip": "idle",
         "loop": true
       },
       "name": "Untitled.glb",
-      "order": 4.0360366819971905
+      "order": 2.1695159922534497
+    },
+    "8440cd16-d70c-432d-945a-5f0d29cd541a": {
+      "id": "8440cd16-d70c-432d-945a-5f0d29cd541a",
+      "position": [
+        0.7140887238092044,
+        -0.4484380908280977,
+        -0.5396902135105188
+      ],
+      "rotation": [
+        0.008618710023979919,
+        0,
+        0,
+        0.9999628582290057
+      ],
+      "scale": [
+        0.30000000000000016,
+        0.30000000000000016,
+        0.3000000000000001
+      ],
+      "geometry": {
+        "type": "torus",
+        "radius": 0.5,
+        "tubeRadius": 0.2
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "371ca486-f049-463c-abe8-be09103f7ac0",
+      "components": {
+        "c518afe5-3083-459b-b17b-e45c3414180b": {
+          "id": "c518afe5-3083-459b-b17b-e45c3414180b",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": false,
+            "fromX": -0.516,
+            "fromY": 0.532,
+            "fromZ": 0.344,
+            "toX": 0.714,
+            "toY": 0.532,
+            "toZ": 0.344,
+            "reverse": true
+          }
+        }
+      },
+      "name": "Torus",
+      "order": 3.4373643074490365
     }
   },
   "spaces": {

@@ -171,7 +171,7 @@
         "loop": true
       },
       "name": "Untitled.glb",
-      "order": 2.2683984693220185,
+      "order": 10.069295528763554,
       "collider": {
         "geometry": {
           "type": "capsule",
@@ -184,20 +184,20 @@
     "38a84e7c-3316-48b7-9db5-39f1cf6a18db": {
       "id": "38a84e7c-3316-48b7-9db5-39f1cf6a18db",
       "position": [
-        0.001325163739911872,
-        0.8368984022755096,
-        -0.04473113227615677
+        1.1610848715745452,
+        0.3385250463237509,
+        0.5644573762309976
       ],
       "rotation": [
-        -8.28142889706678e-18,
-        -0.0044230242588129895,
-        -2.174875561732989e-18,
-        0.999990218380363
+        0.677231033674313,
+        -0.20336697624840988,
+        -0.20336697624840996,
+        0.6772310336743133
       ],
       "scale": [
-        1.6068233700126504,
+        1.606909950634664,
         1.0000000532124815,
-        1.2845305684037576
+        1.2846371970247659
       ],
       "geometry": {
         "type": "plane",
@@ -212,10 +212,10 @@
           "asset": "assets/video.mp4"
         }
       },
-      "parentId": "d7934205-95a3-482f-b1d9-536aaca59df0",
+      "parentId": "371ca486-f049-463c-abe8-be09103f7ac0",
       "components": {},
       "name": "Video",
-      "order": 2.4286018342955233,
+      "order": 4.032194491301111,
       "videoControls": {
         "paused": true,
         "loop": false
@@ -225,18 +225,18 @@
       "id": "d7934205-95a3-482f-b1d9-536aaca59df0",
       "position": [
         1.1357836553242056,
-        0.30161327706382346,
-        0.3071195423309654
+        0.3016132770638235,
+        0.5668710145831319
       ],
       "rotation": [
         0.6784560496840879,
-        -0.19924203534159757,
+        -0.19924203534159754,
         -0.19924203534159754,
         0.678456049684088
       ],
       "scale": [
-        0.9999999999999998,
-        0.9999999999999998,
+        1.5,
+        1.5,
         0.9999999999999998
       ],
       "parentId": "371ca486-f049-463c-abe8-be09103f7ac0",
@@ -255,11 +255,11 @@
       "ui": {
         "type": "3d",
         "width": 100,
-        "height": 36,
-        "background": "#ad50ff",
+        "height": 65,
+        "background": "#c852ff",
         "borderRadius": 18,
         "flexDirection": "row",
-        "backgroundOpacity": 1,
+        "backgroundOpacity": 0,
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
@@ -268,12 +268,12 @@
         "flexWrap": "wrap"
       },
       "name": "Button",
-      "order": 4.0450416710692965,
+      "order": 2.2581471725607885,
       "collider": {
         "geometry": {
           "type": "box",
           "depth": 0.3999999999999998,
-          "height": 0.40000000000000013,
+          "height": 0.7000000000000001,
           "width": 1
         },
         "offsetZ": 0
@@ -304,61 +304,21 @@
       "components": {},
       "name": "Icon",
       "ui": {
-        "width": 16,
-        "height": 16,
+        "width": 30,
+        "height": 10,
         "image": {
           "type": "asset",
-          "asset": "assets/button.png"
+          "asset": "assets/play.png"
         },
         "backgroundOpacity": 1,
-        "backgroundSize": "contain"
+        "backgroundSize": "contain",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
       },
       "order": 0.4003507798687435
-    },
-    "9d8a0a12-0ca8-4910-8c61-0f9f741d2988": {
-      "id": "9d8a0a12-0ca8-4910-8c61-0f9f741d2988",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "d7934205-95a3-482f-b1d9-536aaca59df0",
-      "components": {
-        "644719c0-36e1-462f-9c5c-8b182d871c2d": {
-          "id": "644719c0-36e1-462f-9c5c-8b182d871c2d",
-          "name": "boton-video",
-          "parameters": {
-            "reproductorVideo": {
-              "type": "entity",
-              "id": "38a84e7c-3316-48b7-9db5-39f1cf6a18db"
-            }
-          }
-        }
-      },
-      "name": "Text",
-      "ui": {
-        "width": 58,
-        "height": 14,
-        "text": "Reproducir",
-        "color": "#ffffff",
-        "fontSize": 11,
-        "textAlign": "center",
-        "ignoreRaycast": true
-      },
-      "order": 1.1720437128702346
     },
     "eca23b4a-593e-408b-99c8-1f95bb443765": {
       "id": "eca23b4a-593e-408b-99c8-1f95bb443765",
@@ -370,7 +330,7 @@
       "rotation": [
         0.7025613967450166,
         0.08004676010739722,
-        0.08004676010739721,
+        0.08004676010739722,
         0.7025613967450168
       ],
       "scale": [
@@ -404,7 +364,7 @@
         "background": "#ffffff"
       },
       "name": "github",
-      "order": 5.361136697189564
+      "order": 8.184141314414251
     },
     "496d1d59-7b78-4082-b100-08453f7736a4": {
       "id": "496d1d59-7b78-4082-b100-08453f7736a4",
@@ -448,7 +408,7 @@
         "backgroundSize": "contain"
       },
       "name": "ig",
-      "order": 5.677231723309831
+      "order": 5.428084144379705
     },
     "f35ec800-474b-4eb0-9e33-a7fda494eb3a": {
       "id": "f35ec800-474b-4eb0-9e33-a7fda494eb3a",
@@ -458,15 +418,15 @@
         1.0447575641653204
       ],
       "rotation": [
-        0.7025613967450165,
-        0.0800467601073972,
+        0.7025613967450164,
         0.08004676010739718,
-        0.7025613967450168
+        0.08004676010739717,
+        0.7025613967450169
       ],
       "scale": [
-        0.36,
         0.35999999999999993,
-        0.36
+        0.3599999999999999,
+        0.3599999999999999
       ],
       "geometry": null,
       "material": null,
@@ -493,7 +453,7 @@
         "borderRadius": 0
       },
       "name": "linkedin",
-      "order": 5.993326749430098
+      "order": 6.856674889929951
     }
   },
   "spaces": {
